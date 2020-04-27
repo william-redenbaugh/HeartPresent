@@ -81,28 +81,22 @@ void ms_100_task(void)
         for (uint8_t i = 0; i < 4; i++)
             msg[i] = Udp.read();
 
-        if (msg[0] == 20 && msg[1] == 20 && msg[2] == 30 && msg[3] == 90)
-        {
+        if (msg[0] == 20 && msg[1] == 20 && msg[2] == 30 && msg[3] == 90){
             lock();
         }
-        if (msg[0] == 20 && msg[1] == 20 && msg[2] == 30 && msg[3] == 91)
-        {
+        if (msg[0] == 20 && msg[1] == 20 && msg[2] == 30 && msg[3] == 91){
             unlock();
         }
-        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 92)
-        {
+        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 92){
             lampLight.toggle();
         }
-        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 91)
-        {
+        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 91){
             lampLight.setLED(true);
         }
-        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 90)
-        {
+        if (msg[0] == 50 && msg[1] == 50 && msg[2] == 30 && msg[3] == 90){
             lampLight.setLED(false);
         }
-        if (msg[0] == 12 && msg[1] == 12 && msg[2] == 12 && msg[3] == 12)
-        {
+        if (msg[0] == 12 && msg[1] == 12 && msg[2] == 12 && msg[3] == 12){
             alarm.beepOnce(300);
         }
     }
