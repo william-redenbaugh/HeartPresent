@@ -1,0 +1,21 @@
+[submodule "TinaClock3.0/lib/TeensyOS"]
+	path = TinaClock3.0/lib/TeensyOS
+	url = git@github.com:william-redenbaugh/TeensyOS.git
+[submodule "TinaClock3.0/lib/Arduino-LiquidCrystal-I2C-library"]
+	path = TinaClock3.0/lib/Arduino-LiquidCrystal-I2C-library
+	url = git@github.com:fdebrabander/Arduino-LiquidCrystal-I2C-library.git
+[submodule "TinaClock3.0/lib/Adafruit_IS31FL3731"]
+	path = TinaClock3.0/lib/Adafruit_IS31FL3731
+	url = git@github.com:william-redenbaugh/Adafruit_IS31FL3731.git
+[submodule "TinaClock3.0/lib/Adafruit-GFX-Library"]
+	path = TinaClock3.0/lib/Adafruit-GFX-Library
+	url = git@github.com:william-redenbaugh/Adafruit-GFX-Library.git
+[submodule "TinaClock3.0/lib/MAX7219_Dot_Matrix"]
+	path = TinaClock3.0/lib/MAX7219_Dot_Matrix
+	url = git@github.com:nickgammon/MAX7219_Dot_Matrix.git
+[submodule "TinaClock3.0/lib/bitBangedSPI"]
+	path = TinaClock3.0/lib/bitBangedSPI
+	url = git@github.com:nickgammon/bitBangedSPI.git
+[submodule "TinaClock3.0/lib/arduino-Max72xxPanel"]
+	path = TinaClock3.0/lib/arduino-Max72xxPanel
+	url = git@github.com:markruys/arduino-Max72xxPanel.git
