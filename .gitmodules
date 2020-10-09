@@ -19,3 +19,9 @@
 [submodule "TinaClock3.0/lib/arduino-Max72xxPanel"]
 	path = TinaClock3.0/lib/arduino-Max72xxPanel
 	url = git@github.com:markruys/arduino-Max72xxPanel.git
+[submodule "Clock3.0Main/lib/Arduino-LiquidCrystal-I2C-library"]
+	path = Clock3.0Main/lib/Arduino-LiquidCrystal-I2C-library
+	url = git@github.com:fdebrabander/Arduino-LiquidCrystal-I2C-library.git
+[submodule "Clock3.0Main/lib/TeensyOS"]
+	path = Clock3.0Main/lib/TeensyOS
+	url = git@github.com:william-redenbaugh/TeensyOS.git
